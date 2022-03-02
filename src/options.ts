@@ -75,4 +75,10 @@ export interface Options {
    * A boolean to turn off auto scaling for truly massive images..
    */
   skipAutoScale?: boolean
+
+  /**
+   * The second parameter of window.fetch (Promise<Response> fetch(input[, init]))
+   *
+   */
+  fetchRequestInit?: RequestInit
 }
